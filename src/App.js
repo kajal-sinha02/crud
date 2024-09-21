@@ -5,8 +5,8 @@ import './App.css'
 
 function App() {
   const [users, setUsers] = useState([
-    { id: 1, name: "John Doe", email: "john@example.com" },
-    { id: 2, name: "Jane Smith", email: "jane@example.com" },
+    { id: 1, name: "kajal sinha", email: "kajal.sinha@yahoo.com" },
+    { id: 2, name: "Manjeet singh", email: "manjeetsingh@gmail.com" },
   ]);
 
   const [editing, setEditing] = useState(false);
