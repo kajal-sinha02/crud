@@ -1,0 +1,59 @@
+.user-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    background-color: transparent;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 15px;
+    border: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .user-table th {
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  .user-table tr {
+    background-color: #1f2833;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .user-table tr:hover {
+    background-color: #2d3a49;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-btn {
+    margin-right: 5px;
+    background-color: #45a29e;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f56d6d;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #3ba55d;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff414d;
+  }
+  
